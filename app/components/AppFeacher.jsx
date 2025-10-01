@@ -15,9 +15,11 @@ const AppFeacher = () => {
   const appPages = [img_1, img_2, img_3, img_4, img_5, img_6, img_7, img_8];
 
   return (
-    <div className="w-full h-[550px] flex items-center justify-center">
+    <div className="w-full h-[300px] lg:h-[550px]  flex items-center justify-center">
       <div className="w-[80%] flex items-center justify-center flex-col">
-        <h1 className="uppercase text-2xl font-bold mb-2">App Feachers</h1>
+        <h1 className="uppercase text-2xl font-bold mb-4 text-orange-500">
+          আমাদের অ্যাপ
+        </h1>
         <SliderPage className="border-none" images={appPages} />
       </div>
     </div>
